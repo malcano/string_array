@@ -1,0 +1,35 @@
+{
+  "tests": [
+    {
+      "name": "test",
+      "setup": "bash ./build.sh Dash.java",
+      "run": "bash ./run.sh Dash",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test",
+      "setup": "bash ./build.sh Persist.java",
+      "run": "bash ./run.sh Persist",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "test",
+      "setup": "bash ./build.sh Merge.java",
+      "run": "bash ./run.sh Merge",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+
+    }
+  ]
+}
